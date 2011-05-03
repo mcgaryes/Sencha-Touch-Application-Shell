@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+	<head>
+		
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+		
+	    <title>Sencha Application Shell</title>
+    
+	    <link rel="stylesheet" href="lib/touch/resources/css/sencha-touch.css" type="text/css">
+		<link rel="stylesheet" href="resources/css/index.css" type="text/css">
+	    
+	</head>
+
+	<body>
+   
+	    <script type="text/javascript" src="lib/touch/sencha-touch-debug.js"></script>
+    
+	    <div id="sencha-app">
+	        <script type="text/javascript" src="app/routes.js"></script>
+	        <script type="text/javascript" src="app/app.js"></script>
+        
+	        <!-- Place your view files here -->
+	        <div id="sencha-views">
+	            <script type="text/javascript" src="app/views/Viewport.js"></script>
+				<script type="text/javascript" src="app/views/Navigation.js"></script>
+				<!-- Cards -->
+				<script type="text/javascript" src="app/views/TouchEvents.js"></script>
+				<script type="text/javascript" src="app/views/Home.js"></script>
+				<script type="text/javascript" src="app/views/SimpleForm.js"></script>
+				<script type="text/javascript" src="app/views/ExampleList.js"></script>
+	        </div>
+        
+	        <!-- Place your model files here -->
+	        <div id="sencha-models">
+				<script type="text/javascript" src="app/models/ExampleModel.js"></script>
+	        </div>
+        
+	        <!-- Place your controller files here -->
+	        <div id="sencha-controllers">
+	            <script type="text/javascript" src="app/controllers/Logger.js"></script>
+				<script type="text/javascript" src="app/controllers/Navigation.js"></script>
+	        </div>
+
+	    </div>
+	
+		<div id="app-content" style="display:none;">
+			<!-- Simple example of some static html for Home.js 'contentEl' -->
+			<div id="home-content">
+				<h1>Sencha Application Shell</h1>
+				<p>Maecenas hendrerit sem et nunc tristique pellentesque. Sed aliquam sem vitae velit euismod non lacinia metus venenatis. Morbi arcu est, accumsan sit amet pellentesque vel, aliquet ut nunc.</p>
+			</div>
+		</div>
+	
+	</body>
+	
+</html>
